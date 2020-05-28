@@ -10,8 +10,9 @@ export default class ReactMain extends React.Component {
             <div>
                 <div>
                     <span>Third button will not exist in DOM after render</span>
+
+                    <NullableButton isHidden={false} buttonNumber={2} />               
                     <NullableButton isHidden={false} buttonNumber={1} />
-                    <NullableButton isHidden={false} buttonNumber={2} />
                     <NullableButton isHidden={true} buttonNumber={3} />
                     <NullableButton isHidden={false} buttonNumber={4} />
                 </div>
